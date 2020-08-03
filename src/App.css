@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #ccc;
+}
+.name {
+  font-size: 5rem;
+}
+.bio {
+  font-size: 3rem;
+  color: cadetblue;
+}
+.cities {
+  font-size: 2rem;
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+}
