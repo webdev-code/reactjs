@@ -1,13 +1,13 @@
 import React from 'react';
 import HeaderToDo from './HeaderToDo';
-import ListToDo from './ListToDo';
+import TodoItem from './TodoItem';
 import FooterToDo from './FooterToDo';
 
 function ToDo() {
   return (
     <div>
       <HeaderToDo />
-      <ListToDo />
+      <TodoItem />
       <FooterToDo />
     </div>
   );

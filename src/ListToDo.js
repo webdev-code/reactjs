@@ -1,16 +1,11 @@
 import React from 'react';
 
-function ListToDo() {
+function ListToDo(props) {
+  // console.log(props);
   return (
     <div>
       <input type='checkbox' />
-      <p> Task number 1 to do </p>
-      <input type='checkbox' />
-      <p> Task number 1 to do </p>
-      <input type='checkbox' />
-      <p> Task number 1 to do </p>
-      <input type='checkbox' />
-      <p> Task number 1 to do </p>
+      <p>{props.task}</p>
     </div>
   );
 }
