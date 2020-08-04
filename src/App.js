@@ -1,9 +1,10 @@
 import React from 'react';
+import InlineStyling from './InlineStyling';
 // import MyInfo from './MyInfo';
 // import Header from './Header';
 // import MainContent from './MainContent';
 // import Footer from './Footer';
-import ToDo from './ToDoPhase1';
+// import ToDo from './ToDoPhase1';
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
       {/* <MyInfo />
       <Header />
       <MainContent />
-      <Footer /> */}
-      <ToDo />
+      <Footer /> 
+       <ToDo />*/}
+      <InlineStyling />
     </div>
   );
 }
